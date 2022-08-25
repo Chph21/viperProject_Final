@@ -1,5 +1,6 @@
 .hieu-part{
     // margin-top: 10rem;
+    background-color: gainsboro;
     .container{
         max-width: 1320px;
         margin: 0 auto;
@@ -9,6 +10,7 @@
         height: auto;
         justify-content: center;
         
+        
     }
     .content{
         display: flex;
@@ -16,6 +18,7 @@
         // padding-bottom: 80px;
         width: 100%;
         height: 100%;
+        justify-content: space-between;
         img{
             width: 50%;
             height: 50%;
@@ -25,11 +28,37 @@
         display: block;
         width: 40%;
         height: auto;
-        padding-top: 13%;
+        padding-top: 10%;
         font-size: 15px;
         font-weight: 450;
         p{
             padding: 3rem 0rem 3rem 0rem;
+        }
+        .btn{
+            display: block;
+            padding: 1rem 2rem;
+            margin: 0;
+            width: 15rem;
+            min-width: 90px;
+            // line-height: 1.8;
+            font-size: 16px;
+            text-decoration: none;
+            text-align: center;
+            white-space: normal;
+            border: 1px solid transparent;
+            border-radius: 0;
+            background-color: black;
+            color: azure;
+            transition: width 0.3s, background 0.3s, opacity 1s;
+            position: relative;
+            &:hover{
+                border-radius: 5px;
+                background: black; 
+                outline: none;
+                // border: 2px solid #111;
+                width: 20rem;
+                overflow: hidden;
+            }  
         }
     }
     @media (max-width: 900px ){
@@ -43,34 +72,7 @@
             // height: 30px !important;
             width: 70px !important;
             font-size: 10px !important;
-            
-        }
-    }
-    .btn{
-        display: inline-block;
-        padding: 11px 20px;
-        margin: 0;
-        width: auto;
-        min-width: 90px;
-        line-height: 1.8;
-        font-size: 16px;
-        text-decoration: none;
-        text-align: center;
-        vertical-align: middle;
-        white-space: normal;
-        border: 1px solid transparent;
-        border-radius: 0;
-        background-color: black;
-        color: azure;
-        transition: padding-right 1s,background 1s,opacity 1s;
-        position: relative;
-    }
-    .btn:hover{
-        position: absolute;
-        border-radius:5px;
-        background: black; outline: none;
-        border: 2px solid #111;
-        padding: 15px 50px;
-        overflow: hidden;
-    }    
+            height: 30px !important;
+            }
+    }  
 }

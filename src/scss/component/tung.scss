@@ -1,5 +1,5 @@
 .tung-part{
-    height: 100vh;
+    height: auto;
     width: 100%;
     .btn{
         background-color: #fe3f40;
@@ -79,7 +79,7 @@
             }
         }
         .anh{
-            height: 100%;
+            height: auto;
             width: 100%;
             background-size: cover;
             animation: anh 1s ;
